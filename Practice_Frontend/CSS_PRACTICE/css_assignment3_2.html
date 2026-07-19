@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Animation */
+.box{
+    width:100px;
+    height:100px;
+    background:red;
+    animation-name:move;
+    animation-duration:3s;
+    animation-delay:1s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes move{
+    from{margin-left:0%;}
+    to{margin-left:100%;}
+}
+
+/* Pagination */
+.pagination{
+    margin-top:50px;
+}
+
+.pagination a{
+    text-decoration:none;
+    border:1px solid black;
+    padding:8px 15px;
+}
+
+.pagination a:hover{
+    background:lightblue;
+}
+
+/* Pagination with spaces */
+.space a{
+    margin:5px;
+}
+</style>
+</head>
+
+<body>
+
+<h2>CSS Animation</h2>
+<div class="box"></div>
+
+<h2>Pagination (Without Spaces)</h2>
+<div class="pagination">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+</div>
+
+<h2>Pagination (With Spaces)</h2>
+<div class="pagination space">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+</div>
+
+</body>
+</html>

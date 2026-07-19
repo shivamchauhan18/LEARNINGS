@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Semantics HTML</title>
+</head>
+
+<body>
+
+    <h1 align="center">HTML Semantics Assignment</h1>
+    <hr>
+
+    <!-- Question 1: Non-Semantic Elements -->
+
+    <h2>Question 1: Non-Semantic Elements</h2>
+
+    <!-- div is used to group content -->
+    <div style="border:2px solid blue; padding:10px;">
+        <h3>Student Information</h3>
+
+        <!-- span is used for styling inline text -->
+        <p>
+            Name:
+            <span style="color:red; font-weight:bold;">
+                Shivam Chauhan
+            </span>
+        </p>
+
+        <p>
+            Course:
+            <span style="color:green;">
+                HTML
+            </span>
+        </p>
+    </div>
+
+    <hr>
+
+    <!-- Question 2: Semantic Elements -->
+    
+    <h2>Question 2: Semantic Elements</h2>
+
+    <!-- Form -->
+    <form>
+
+        <label>Name:</label>
+        <input type="text"><br><br>
+
+        <label>Email:</label>
+        <input type="email"><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <br>
+
+    <!-- Table -->
+    <table border="1" cellpadding="8">
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Rahul</td>
+            <td>HTML</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Priya</td>
+            <td>CSS</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <!-- Article -->
+    <article>
+        <h3>About HTML</h3>
+        <p>
+            HTML stands for HyperText Markup Language.
+            It is used to create web pages.
+        </p>
+    </article>
+
+    <hr>
+
+    <!-- Question 3: HTML5 Semantic Tags -->
+
+    <h2>Question 3: HTML5 Semantic Tags</h2>
+
+    <!-- Header -->
+    <header style="background-color:lightblue; padding:10px;">
+        <h2>My Website</h2>
+    </header>
+
+    <!-- Navigation -->
+    <nav style="background-color:lightgray; padding:10px;">
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <br>
+
+    <!-- Section -->
+    <section>
+
+        <!-- Hgroup -->
+        <hgroup>
+            <h2>Learning HTML5</h2>
+            <h4>Semantic Elements Example</h4>
+        </hgroup>
+
+        <p>
+            HTML5 provides semantic tags for better webpage structure.
+        </p>
+
+    </section>
+
+    <br>
+
+    <!-- Article -->
+    <article>
+
+        <h3>Importance of Semantic HTML</h3>
+
+        <p>
+            Semantic HTML improves
+            <mark>SEO</mark>
+            and accessibility.
+        </p>
+
+        <p>
+            Published on
+            <time datetime="2026-07-14">
+                July 14, 2026
+            </time>
+        </p>
+
+    </article>
+
+    <br>
+
+    <!-- Aside -->
+    <aside style="border:1px solid gray; padding:10px; width:250px;">
+        <h3>Quick Tip</h3>
+        <p>Always use semantic tags whenever possible.</p>
+    </aside>
+
+    <br>
+
+    <!-- Figure -->
+    <figure>
+
+        <img src="https://via.placeholder.com/250"
+             alt="Sample Image">
+
+        <figcaption>
+            Figure 1: Sample HTML5 Image
+        </figcaption>
+
+    </figure>
+
+    <br>
+
+    <!-- Footer -->
+    <footer style="background-color:lightblue; padding:10px; text-align:center;">
+        <p>&copy; 2026 HTML Assignment</p>
+    </footer>
+
+</body>
+
+</html>

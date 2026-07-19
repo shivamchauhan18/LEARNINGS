@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visibility and Display Example</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 20px;
+        }
+
+        h2 {
+            color: darkblue;
+        }
+
+        div {
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: lightblue;
+        }
+
+        /* Visibility Properties */
+        #visible {
+            visibility: visible;
+        }
+
+        #hidden {
+            visibility: hidden;
+        }
+
+        #collapse {
+            visibility: collapse;
+        }
+
+        /* Display Properties */
+        #none {
+            display: none;
+        }
+
+        #inline {
+            display: inline;
+            background-color: yellow;
+        }
+
+        #block {
+            display: block;
+            background-color: lightgreen;
+        }
+
+        #contents {
+            display: contents;
+        }
+
+        #list-item {
+            display: list-item;
+            margin-left: 30px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Visibility Property</h2>
+
+    <div id="visible">
+        visibility: visible
+    </div>
+
+    <div id="hidden">
+        visibility: hidden (This element is hidden, but its space is reserved.)
+    </div>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <td>Row 1</td>
+        </tr>
+        <tr style="visibility: collapse;">
+            <td>visibility: collapse</td>
+        </tr>
+        <tr>
+            <td>Row 3</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Display Property</h2>
+
+    <div id="none">
+        display: none (This text is not displayed.)
+    </div>
+
+    <div id="inline">
+        display: inline
+    </div>
+
+    <div id="block">
+        display: block
+    </div>
+
+    <div id="contents">
+        <p>display: contents - Parent box disappears.</p>
+        <p>Children are displayed normally.</p>
+    </div>
+
+    <div id="list-item">
+        display: list-item
+    </div>
+
+</body>
+</html>
